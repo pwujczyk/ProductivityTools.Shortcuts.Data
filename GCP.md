@@ -23,6 +23,6 @@ gcloud compute ssh learning-cloud-demo
 
 gcloud sql instances list
 
-gcloud sql users set-password root "%" --password "my-changed-long-
-password-2!" --instance wordpress-db
+gcloud sql users set-password root --password "PASSWORD" --instance wordpress-db
 
+.\cloud_sql_proxy.exe -instances=pwujczyk1:us-central1:pwwordpress-db=tcp:3306
