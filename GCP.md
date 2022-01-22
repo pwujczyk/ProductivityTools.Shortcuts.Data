@@ -25,11 +25,13 @@ gcloud compute ssh learning-cloud-demo
 ```
 ## SQL
 
+```
 gcloud sql instances list
 
 gcloud sql users set-password root --password "PASSWORD" --instance wordpress-db
+```
 
-To conect to MySQL you need to setup the proxy.
+To conect to MySQL from Workbench you need to setup the proxy.
 My sql is working on port 3306
 ```
 connection string (after intances) can be found on the details of the instance
