@@ -38,5 +38,28 @@ My sql is working on port 3306
 ```
 connection string (after intances) can be found on the details of the instance
 .\cloud_sql_proxy.exe -instances=pwujczyklearning:us-central1:pwwordpressmysql=tcp:3306
-
 ```
+
+## App
+
+Create app
+```
+gcloud app create
+```
+
+- Enable cloud build API
+
+Deploy code
+```
+gcloud app deploy
+```
+
+Browse
+```
+gcloud app browse
+```
+
+Way of working with apps
+- VM
+- Cloud App 
+- Cloud Run - small container
